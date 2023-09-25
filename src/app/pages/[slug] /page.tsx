@@ -7,7 +7,7 @@ import { Button } from "@/components";
 import { DrukWide } from "@/app/fonts";
 // Return a list of `params` to populate the [slug] dynamic segment
 export async function generateStaticParams() {
-  const allPosts = (await getDocuments("projects", [
+  const allPosts = (await getDocuments("pages", [
     "title",
     "publishedAt",
     "slug",
@@ -22,7 +22,7 @@ export async function generateStaticParams() {
 
 async function Projectpage({ params }: { params: { slug: string } }) {
   const { slug } = params;
-  const project = getDocumentBySlug("projects", slug, [
+  const project = getDocumentBySlug("pages", slug, [
     "title",
     "publishedAt",
     "description",
@@ -39,7 +39,7 @@ async function Projectpage({ params }: { params: { slug: string } }) {
           <Button href="/" variant="ghost">
             <Image
               src="/icons/Back.svg"
-              alt={project.description}
+              alt={page.description}
               width={24}
               height={24}
             />
