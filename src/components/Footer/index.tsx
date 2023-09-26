@@ -18,14 +18,14 @@ function Footer() {
         <>
           <div className={cn(s.footerDetails)}>
             <h1 className={cn(s.heading)} style={DrukWide.style}>
-              Get in touch 👋
+              期待与您合作 👋
             </h1>
-            <p style={DrukWide.style}>Would love to hear from you.</p>
+            <p style={DrukWide.style}>我坚信设计会激发品牌魅力，解决问题，带来价值！</p>
             <Button
-              href="mailto:achrafgarai@hotmail.com?subject=Hello&body=Just wanted to say hi!"
+              href="https://work.weixin.qq.com/kfid/kfc8d8e52091d1658c3"
               variant="yellow"
             >
-              Contact Me
+              与我联系
             </Button>
           </div>
         </>
