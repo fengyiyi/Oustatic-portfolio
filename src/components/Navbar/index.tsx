@@ -22,7 +22,7 @@ function Navbar() {
         🤝 联系我
       </Button>
       <Button
-        href="https://yego.cc/" target="_blank"
+        href="https://yego.cc/"
         variant="yellow"
       >
         ✍️ 博客
