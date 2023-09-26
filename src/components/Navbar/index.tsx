@@ -16,10 +16,10 @@ function Navbar() {
         </Link>
       </span>
       <Button
-        href="mailto:achrafgarai@hotmail.com?subject=Hello&body=Just wanted to say hi!"
+        href="https://work.weixin.qq.com/kfid/kfc8d8e52091d1658c3"
         variant="yellow"
       >
-        Get in touch
+        🤝 联系我
       </Button>
     </div>
   );
