@@ -21,6 +21,12 @@ function Navbar() {
       >
         🤝 联系我
       </Button>
+      <Button
+        href="https://yego.cc/" target="_blank"
+        variant="yellow"
+      >
+        ✍️ 博客
+      </Button>
     </div>
   );
 }
